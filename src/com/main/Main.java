@@ -65,7 +65,6 @@ public class Main {
 
         //At size 5 all location are already visited
         if(newCurrentPath.size()==5){
-            System.out.println(minimumTime);
             if(minimumTime>currentTime){
                 minimumTime = currentTime;
                 fastestRoute = newCurrentPath;
